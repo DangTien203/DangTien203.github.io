@@ -1,0 +1,46 @@
+/* Đặt màu nền cho toàn bộ trang và kiểu chữ */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Định dạng cho tiêu đề chính */
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+/* Định dạng cho tiêu đề phụ */
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Định dạng cho liên kết và hình ảnh */
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Tạo hình ảnh tròn */
+    border: 5px solid #ddd; /* Viền cho hình ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ cho hình ảnh */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng chuyển đổi khi di chuột */
+}
+
+/* Hiệu ứng phóng to khi di chuột qua hình ảnh */
+img:hover {
+    transform: scale(1.05);
+}
